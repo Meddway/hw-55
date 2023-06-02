@@ -7,7 +7,8 @@ import Ingredients from "./Ingridients/ingridients";
 const App = () => (
   <div className="App">
     <Ingredients></Ingredients>
-
+    <fieldset>
+      <legend>Burger</legend>
     <div className="Burger">
       <div className="BreadTop">
         <div className="Seeds1"></div>
@@ -19,8 +20,7 @@ const App = () => (
       <div className="BreadBottom"></div>
       <div className="Price">Price:</div>
     </div>
-
-
+    </fieldset>
   </div>
 );
 
